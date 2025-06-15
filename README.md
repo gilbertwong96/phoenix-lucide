@@ -1,9 +1,10 @@
 [![npm version](https://img.shields.io/npm/v/phoenix-lucide)](https://www.npmjs.com/package/phoenix-lucide)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
+[![CI](https://github.com/gilbertwong96/phoenix-lucide/actions/workflows/ci.yml/badge.svg)](https://github.com/gilbertwong96/phoenix-lucide/actions/workflows/ci.yml)
 
 # Phoenix Lucide
 
-This plugin is used to integrate [lucide][lucide] with the project using the
+This plugin is used to integrate [lucide][lucide] icons with the project using the
 [Phoenix Framework][phoenix-framework] and [Tailwind CSS][tailwind].
 
 
