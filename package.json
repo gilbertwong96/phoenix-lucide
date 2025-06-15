@@ -1,0 +1,35 @@
+{
+  "name": "phoenix-lucide",
+  "version": "1.0.0",
+  "description": "Lucide Icons plugin for phoenix project",
+  "main": "index.js",
+  "scripts": {
+    "typecheck": "tsc --noEmit --pretty",
+    "build": "tsc"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "phoenixframework",
+    "tailwind",
+    "lucide"
+  ],
+  "author": "Gilbert Wong",
+  "license": "MIT",
+  "packageManager": "pnpm@10.12.1",
+  "dependencies": {
+    "svgo": "^3.3.2"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "tailwindcss": "^4.1.10",
+    "typescript": "^5.8.3"
+  }
+}
