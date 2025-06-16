@@ -1,11 +1,12 @@
 {
   "name": "phoenix-lucide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lucide Icons plugin for phoenix project",
   "main": "index.js",
   "scripts": {
     "typecheck": "tsc --noEmit --pretty",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "tsc"
   },
   "files": [
     "index.js",
